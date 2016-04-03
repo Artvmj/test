@@ -1,0 +1,1221 @@
+Array
+(
+    [0] => Array
+        (
+            [line] => 56
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No docblock for element '$constr'
+        )
+
+    [1] => Array
+        (
+            [line] => 56
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No short description for element '$constr'
+        )
+
+    [2] => Array
+        (
+            [line] => 57
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No docblock for element '$baseScript'
+        )
+
+    [3] => Array
+        (
+            [line] => 57
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No short description for element '$baseScript'
+        )
+
+    [4] => Array
+        (
+            [line] => 58
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No docblock for element '$options'
+        )
+
+    [5] => Array
+        (
+            [line] => 58
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No short description for element '$options'
+        )
+
+    [6] => Array
+        (
+            [line] => 59
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No docblock for element '$htmlOptions'
+        )
+
+    [7] => Array
+        (
+            [line] => 59
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No short description for element '$htmlOptions'
+        )
+
+    [8] => Array
+        (
+            [line] => 60
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No docblock for element '$setupOptions'
+        )
+
+    [9] => Array
+        (
+            [line] => 60
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No short description for element '$setupOptions'
+        )
+
+    [10] => Array
+        (
+            [line] => 61
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No docblock for element '$scripts'
+        )
+
+    [11] => Array
+        (
+            [line] => 61
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No short description for element '$scripts'
+        )
+
+    [12] => Array
+        (
+            [line] => 62
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No docblock for element '$callback'
+        )
+
+    [13] => Array
+        (
+            [line] => 62
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highcharts.php
+            [message] => No short description for element '$callback'
+        )
+
+    [14] => Array
+        (
+            [line] => 22
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\HighchartsAsset.php
+            [message] => No docblock for element '$sourcePath'
+        )
+
+    [15] => Array
+        (
+            [line] => 22
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\HighchartsAsset.php
+            [message] => No short description for element '$sourcePath'
+        )
+
+    [16] => Array
+        (
+            [line] => 23
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\HighchartsAsset.php
+            [message] => No docblock for element '$depends'
+        )
+
+    [17] => Array
+        (
+            [line] => 23
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\HighchartsAsset.php
+            [message] => No short description for element '$depends'
+        )
+
+    [18] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highmaps.php
+            [message] => No docblock for element '$constr'
+        )
+
+    [19] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highmaps.php
+            [message] => No short description for element '$constr'
+        )
+
+    [20] => Array
+        (
+            [line] => 21
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highmaps.php
+            [message] => No docblock for element '$baseScript'
+        )
+
+    [21] => Array
+        (
+            [line] => 21
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highmaps.php
+            [message] => No short description for element '$baseScript'
+        )
+
+    [22] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highstock.php
+            [message] => No docblock for element '$constr'
+        )
+
+    [23] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highstock.php
+            [message] => No short description for element '$constr'
+        )
+
+    [24] => Array
+        (
+            [line] => 21
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highstock.php
+            [message] => No docblock for element '$baseScript'
+        )
+
+    [25] => Array
+        (
+            [line] => 21
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\Highstock.php
+            [message] => No short description for element '$baseScript'
+        )
+
+    [26] => Array
+        (
+            [line] => 150
+            [file] => F:\projects\ssp\modules\miloschuman\highcharts\SeriesDataHelper.php
+            [message] => Method jsonSerialize has no parent to inherit from in app\modules\miloschuman\highcharts\SeriesDataHelper.
+        )
+
+    [27] => Array
+        (
+            [line] => 10
+            [file] => F:\projects\ssp\modules\reports\Category.php
+            [message] => No docblock for element 'app\modules\reports\Category'
+        )
+
+    [28] => Array
+        (
+            [line] => 10
+            [file] => F:\projects\ssp\modules\reports\Editable.php
+            [message] => No docblock for element 'app\modules\reports\Editable'
+        )
+
+    [29] => Array
+        (
+            [line] => 10
+            [file] => F:\projects\ssp\modules\reports\Last.php
+            [message] => No docblock for element 'app\modules\reports\Last'
+        )
+
+    [30] => Array
+        (
+            [line] => 12
+            [file] => F:\projects\ssp\modules\reports\Last.php
+            [message] => No docblock for element '$interval'
+        )
+
+    [31] => Array
+        (
+            [line] => 12
+            [file] => F:\projects\ssp\modules\reports\Last.php
+            [message] => No short description for element '$interval'
+        )
+
+    [32] => Array
+        (
+            [line] => 13
+            [file] => F:\projects\ssp\modules\reports\Last.php
+            [message] => No docblock for element '$period'
+        )
+
+    [33] => Array
+        (
+            [line] => 13
+            [file] => F:\projects\ssp\modules\reports\Last.php
+            [message] => No short description for element '$period'
+        )
+
+    [34] => Array
+        (
+            [line] => 10
+            [file] => F:\projects\ssp\modules\reports\Reports.php
+            [message] => No docblock for element 'app\components\Reports'
+        )
+
+    [35] => Array
+        (
+            [line] => 12
+            [file] => F:\projects\ssp\modules\reports\Reports.php
+            [message] => No docblock for element '$user_id'
+        )
+
+    [36] => Array
+        (
+            [line] => 12
+            [file] => F:\projects\ssp\modules\reports\Reports.php
+            [message] => No short description for element '$user_id'
+        )
+
+    [37] => Array
+        (
+            [line] => 119
+            [file] => F:\projects\ssp\modules\reports\Reports.php
+            [message] => No docblock for element 'getTransactionByType'
+        )
+
+    [38] => Array
+        (
+            [line] => 141
+            [file] => F:\projects\ssp\modules\reports\Reports.php
+            [message] => No docblock for element 'getTransactionByCategories'
+        )
+
+    [39] => Array
+        (
+            [line] => 186
+            [file] => F:\projects\ssp\modules\reports\Reports.php
+            [message] => No docblock for element 'getCountSumByArray'
+        )
+
+    [40] => Array
+        (
+            [line] => 205
+            [file] => F:\projects\ssp\modules\reports\Reports.php
+            [message] => No docblock for element 'getUserList'
+        )
+
+    [41] => Array
+        (
+            [line] => 10
+            [file] => F:\projects\ssp\modules\reports\Table.php
+            [message] => No docblock for element 'app\modules\reports\Table'
+        )
+
+    [42] => Array
+        (
+            [line] => 12
+            [file] => F:\projects\ssp\modules\reports\Table.php
+            [message] => No docblock for element '$user_id'
+        )
+
+    [43] => Array
+        (
+            [line] => 12
+            [file] => F:\projects\ssp\modules\reports\Table.php
+            [message] => No short description for element '$user_id'
+        )
+
+    [44] => Array
+        (
+            [line] => 14
+            [file] => F:\projects\ssp\modules\reports\Table.php
+            [message] => No docblock for element 'getList'
+        )
+
+    [45] => Array
+        (
+            [line] => 13
+            [file] => F:\projects\ssp\modules\reports\Type.php
+            [message] => No docblock for element 'app\modules\reports\Type'
+        )
+
+    [46] => Array
+        (
+            [line] => 13
+            [file] => F:\projects\ssp\modules\transaction\Transaction.php
+            [message] => Method $controllerNamespace has no parent to inherit from in app\modules\transaction\Transaction.
+        )
+
+    [47] => Array
+        (
+            [line] => 18
+            [file] => F:\projects\ssp\modules\transaction\Transaction.php
+            [message] => Method init has no parent to inherit from in app\modules\transaction\Transaction.
+        )
+
+    [48] => Array
+        (
+            [line] => 22
+            [file] => F:\projects\ssp\modules\transaction\controllers\DefaultController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\transaction\controllers\DefaultController.
+        )
+
+    [49] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\transaction\controllers\TransactionController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\transaction\controllers\TransactionController.
+        )
+
+    [50] => Array
+        (
+            [line] => 30
+            [file] => F:\projects\ssp\modules\transaction\models\SspTransaction.php
+            [message] => Method tableName has no parent to inherit from in app\modules\transaction\models\SspTransaction.
+        )
+
+    [51] => Array
+        (
+            [line] => 37
+            [file] => F:\projects\ssp\modules\transaction\models\SspTransaction.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\transaction\models\SspTransaction.
+        )
+
+    [52] => Array
+        (
+            [line] => 52
+            [file] => F:\projects\ssp\modules\transaction\models\SspTransaction.php
+            [message] => Method rules has no parent to inherit from in app\modules\transaction\models\SspTransaction.
+        )
+
+    [53] => Array
+        (
+            [line] => 64
+            [file] => F:\projects\ssp\modules\transaction\models\SspTransaction.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\transaction\models\SspTransaction.
+        )
+
+    [54] => Array
+        (
+            [line] => 13
+            [file] => F:\projects\ssp\modules\transaction_category\TransactionCategory.php
+            [message] => Method $controllerNamespace has no parent to inherit from in app\modules\transaction_category\TransactionCategory.
+        )
+
+    [55] => Array
+        (
+            [line] => 18
+            [file] => F:\projects\ssp\modules\transaction_category\TransactionCategory.php
+            [message] => Method init has no parent to inherit from in app\modules\transaction_category\TransactionCategory.
+        )
+
+    [56] => Array
+        (
+            [line] => 6
+            [file] => F:\projects\ssp\modules\transaction_category\api\Category.php
+            [message] => No docblock for element 'app\modules\transaction_category\api\Category'
+        )
+
+    [57] => Array
+        (
+            [line] => 8
+            [file] => F:\projects\ssp\modules\transaction_category\api\Category.php
+            [message] => No docblock for element 'GetList'
+        )
+
+    [58] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\transaction_category\controllers\DefaultController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\transaction_category\controllers\DefaultController.
+        )
+
+    [59] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\transaction_category\controllers\SspTransactionCategoryController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\transaction_category\controllers\SspTransactionCategoryController.
+        )
+
+    [60] => Array
+        (
+            [line] => 27
+            [file] => F:\projects\ssp\modules\transaction_category\models\SspTransactionCategory.php
+            [message] => Method tableName has no parent to inherit from in app\modules\transaction_category\models\SspTransactionCategory.
+        )
+
+    [61] => Array
+        (
+            [line] => 35
+            [file] => F:\projects\ssp\modules\transaction_category\models\SspTransactionCategory.php
+            [message] => Method rules has no parent to inherit from in app\modules\transaction_category\models\SspTransactionCategory.
+        )
+
+    [62] => Array
+        (
+            [line] => 48
+            [file] => F:\projects\ssp\modules\transaction_category\models\SspTransactionCategory.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\transaction_category\models\SspTransactionCategory.
+        )
+
+    [63] => Array
+        (
+            [line] => 27
+            [file] => F:\projects\ssp\modules\transaction_category\models\SspTransactionCategory.php
+            [message] => Method tableName has no parent to inherit from in app\modules\transaction_category\models\SspTransactionCategory.
+        )
+
+    [64] => Array
+        (
+            [line] => 35
+            [file] => F:\projects\ssp\modules\transaction_category\models\SspTransactionCategory.php
+            [message] => Method rules has no parent to inherit from in app\modules\transaction_category\models\SspTransactionCategory.
+        )
+
+    [65] => Array
+        (
+            [line] => 48
+            [file] => F:\projects\ssp\modules\transaction_category\models\SspTransactionCategory.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\transaction_category\models\SspTransactionCategory.
+        )
+
+    [66] => Array
+        (
+            [line] => 29
+            [file] => F:\projects\ssp\modules\transaction_category\models\SspTransactionCategorySearch.php
+            [message] => Method scenarios has no parent to inherit from in app\modules\transaction_category\models\SspTransactionCategorySearch.
+        )
+
+    [67] => Array
+        (
+            [line] => 13
+            [file] => F:\projects\ssp\modules\transaction_type\TransactionType.php
+            [message] => Method $controllerNamespace has no parent to inherit from in app\modules\transaction_type\TransactionType.
+        )
+
+    [68] => Array
+        (
+            [line] => 18
+            [file] => F:\projects\ssp\modules\transaction_type\TransactionType.php
+            [message] => Method init has no parent to inherit from in app\modules\transaction_type\TransactionType.
+        )
+
+    [69] => Array
+        (
+            [line] => 6
+            [file] => F:\projects\ssp\modules\transaction_type\api\Type.php
+            [message] => No docblock for element 'app\modules\transaction_type\api\Type'
+        )
+
+    [70] => Array
+        (
+            [line] => 8
+            [file] => F:\projects\ssp\modules\transaction_type\api\Type.php
+            [message] => No docblock for element 'GetList'
+        )
+
+    [71] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\transaction_type\controllers\DefaultController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\transaction_type\controllers\DefaultController.
+        )
+
+    [72] => Array
+        (
+            [line] => 20
+            [file] => F:\projects\ssp\modules\transaction_type\controllers\SspTransactionTypeController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\transaction_type\controllers\SspTransactionTypeController.
+        )
+
+    [73] => Array
+        (
+            [line] => 21
+            [file] => F:\projects\ssp\modules\transaction_type\models\SspTransactionType.php
+            [message] => Method tableName has no parent to inherit from in app\modules\transaction_type\models\SspTransactionType.
+        )
+
+    [74] => Array
+        (
+            [line] => 29
+            [file] => F:\projects\ssp\modules\transaction_type\models\SspTransactionType.php
+            [message] => Method rules has no parent to inherit from in app\modules\transaction_type\models\SspTransactionType.
+        )
+
+    [75] => Array
+        (
+            [line] => 41
+            [file] => F:\projects\ssp\modules\transaction_type\models\SspTransactionType.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\transaction_type\models\SspTransactionType.
+        )
+
+    [76] => Array
+        (
+            [line] => 21
+            [file] => F:\projects\ssp\modules\transaction_type\models\SspTransactionType.php
+            [message] => Method tableName has no parent to inherit from in app\modules\transaction_type\models\SspTransactionType.
+        )
+
+    [77] => Array
+        (
+            [line] => 29
+            [file] => F:\projects\ssp\modules\transaction_type\models\SspTransactionType.php
+            [message] => Method rules has no parent to inherit from in app\modules\transaction_type\models\SspTransactionType.
+        )
+
+    [78] => Array
+        (
+            [line] => 41
+            [file] => F:\projects\ssp\modules\transaction_type\models\SspTransactionType.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\transaction_type\models\SspTransactionType.
+        )
+
+    [79] => Array
+        (
+            [line] => 29
+            [file] => F:\projects\ssp\modules\transaction_type\models\SspTransactionTypeSearch.php
+            [message] => Method scenarios has no parent to inherit from in app\modules\transaction_type\models\SspTransactionTypeSearch.
+        )
+
+    [80] => Array
+        (
+            [line] => 43
+            [file] => F:\projects\ssp\modules\user\Bootstrap.php
+            [message] => Method bootstrap has no parent to inherit from in dektrium\user\Bootstrap.
+        )
+
+    [81] => Array
+        (
+            [line] => 30
+            [file] => F:\projects\ssp\modules\user\Finder.php
+            [message] => No short description for element '$userQuery'
+        )
+
+    [82] => Array
+        (
+            [line] => 33
+            [file] => F:\projects\ssp\modules\user\Finder.php
+            [message] => No short description for element '$tokenQuery'
+        )
+
+    [83] => Array
+        (
+            [line] => 36
+            [file] => F:\projects\ssp\modules\user\Finder.php
+            [message] => No short description for element '$accountQuery'
+        )
+
+    [84] => Array
+        (
+            [line] => 39
+            [file] => F:\projects\ssp\modules\user\Finder.php
+            [message] => No short description for element '$profileQuery'
+        )
+
+    [85] => Array
+        (
+            [line] => 27
+            [file] => F:\projects\ssp\modules\user\Mailer.php
+            [message] => No short description for element '$viewPath'
+        )
+
+    [86] => Array
+        (
+            [line] => 33
+            [file] => F:\projects\ssp\modules\user\Mailer.php
+            [message] => No short description for element '$welcomeSubject'
+        )
+
+    [87] => Array
+        (
+            [line] => 36
+            [file] => F:\projects\ssp\modules\user\Mailer.php
+            [message] => No short description for element '$confirmationSubject'
+        )
+
+    [88] => Array
+        (
+            [line] => 39
+            [file] => F:\projects\ssp\modules\user\Mailer.php
+            [message] => No short description for element '$reconfirmationSubject'
+        )
+
+    [89] => Array
+        (
+            [line] => 42
+            [file] => F:\projects\ssp\modules\user\Mailer.php
+            [message] => No short description for element '$recoverySubject'
+        )
+
+    [90] => Array
+        (
+            [line] => 45
+            [file] => F:\projects\ssp\modules\user\Mailer.php
+            [message] => No short description for element '$module'
+        )
+
+    [91] => Array
+        (
+            [line] => 128
+            [file] => F:\projects\ssp\modules\user\Mailer.php
+            [message] => Method init has no parent to inherit from in app\modules\user\Mailer.
+        )
+
+    [92] => Array
+        (
+            [line] => 121
+            [file] => F:\projects\ssp\modules\user\UserModule.php
+            [message] => No docblock for element 'init'
+        )
+
+    [93] => Array
+        (
+            [line] => 21
+            [file] => F:\projects\ssp\modules\user\api\Text.php
+            [message] => No docblock for element 'init'
+        )
+
+    [94] => Array
+        (
+            [line] => 30
+            [file] => F:\projects\ssp\modules\user\api\Text.php
+            [message] => No docblock for element 'api_get'
+        )
+
+    [95] => Array
+        (
+            [line] => 126
+            [file] => F:\projects\ssp\modules\user\controllers\DefaultController.php
+            [message] => No short description for element '$finder'
+        )
+
+    [96] => Array
+        (
+            [line] => 141
+            [file] => F:\projects\ssp\modules\user\controllers\DefaultController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\user\controllers\DefaultController.
+        )
+
+    [97] => Array
+        (
+            [line] => 38
+            [file] => F:\projects\ssp\modules\user\controllers\SecurityController.php
+            [message] => No short description for element '$finder'
+        )
+
+    [98] => Array
+        (
+            [line] => 53
+            [file] => F:\projects\ssp\modules\user\controllers\SecurityController.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\user\controllers\SecurityController.
+        )
+
+    [99] => Array
+        (
+            [line] => 73
+            [file] => F:\projects\ssp\modules\user\controllers\SecurityController.php
+            [message] => Method actions has no parent to inherit from in app\modules\user\controllers\SecurityController.
+        )
+
+    [100] => Array
+        (
+            [line] => 62
+            [file] => F:\projects\ssp\modules\user\events\ConnectEvent.php
+            [message] => Undefined parameter documented: $form in setUser().
+        )
+
+    [101] => Array
+        (
+            [line] => 24
+            [file] => F:\projects\ssp\modules\user\filters\AccessRule.php
+            [message] => Method matchRole has no parent to inherit from in app\modules\user\filters\AccessRule.
+        )
+
+    [102] => Array
+        (
+            [line] => 28
+            [file] => F:\projects\ssp\modules\user\filters\BackendFilter.php
+            [message] => No short description for element '$controllers'
+        )
+
+    [103] => Array
+        (
+            [line] => 28
+            [file] => F:\projects\ssp\modules\user\filters\FrontendFilter.php
+            [message] => No short description for element '$controllers'
+        )
+
+    [104] => Array
+        (
+            [line] => 45
+            [file] => F:\projects\ssp\modules\user\models\Account.php
+            [message] => No short description for element '$finder'
+        )
+
+    [105] => Array
+        (
+            [line] => 96
+            [file] => F:\projects\ssp\modules\user\models\Account.php
+            [message] => No docblock for element 'connect'
+        )
+
+    [106] => Array
+        (
+            [line] => 114
+            [file] => F:\projects\ssp\modules\user\models\Account.php
+            [message] => No docblock for element 'create'
+        )
+
+    [107] => Array
+        (
+            [line] => 51
+            [file] => F:\projects\ssp\modules\user\models\Account.php
+            [message] => Method tableName has no parent to inherit from in app\modules\user\models\Account.
+        )
+
+    [108] => Array
+        (
+            [line] => 40
+            [file] => F:\projects\ssp\modules\user\models\LoginForm.php
+            [message] => No short description for element '$user'
+        )
+
+    [109] => Array
+        (
+            [line] => 43
+            [file] => F:\projects\ssp\modules\user\models\LoginForm.php
+            [message] => No short description for element '$finder'
+        )
+
+    [110] => Array
+        (
+            [line] => 56
+            [file] => F:\projects\ssp\modules\user\models\LoginForm.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\user\models\LoginForm.
+        )
+
+    [111] => Array
+        (
+            [line] => 66
+            [file] => F:\projects\ssp\modules\user\models\LoginForm.php
+            [message] => Method rules has no parent to inherit from in app\modules\user\models\LoginForm.
+        )
+
+    [112] => Array
+        (
+            [line] => 112
+            [file] => F:\projects\ssp\modules\user\models\LoginForm.php
+            [message] => Method formName has no parent to inherit from in app\modules\user\models\LoginForm.
+        )
+
+    [113] => Array
+        (
+            [line] => 118
+            [file] => F:\projects\ssp\modules\user\models\LoginForm.php
+            [message] => Method beforeValidate has no parent to inherit from in app\modules\user\models\LoginForm.
+        )
+
+    [114] => Array
+        (
+            [line] => 39
+            [file] => F:\projects\ssp\modules\user\models\Profile.php
+            [message] => Method tableName has no parent to inherit from in app\modules\user\models\Profile.
+        )
+
+    [115] => Array
+        (
+            [line] => 47
+            [file] => F:\projects\ssp\modules\user\models\Profile.php
+            [message] => Method rules has no parent to inherit from in app\modules\user\models\Profile.
+        )
+
+    [116] => Array
+        (
+            [line] => 69
+            [file] => F:\projects\ssp\modules\user\models\Profile.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\user\models\Profile.
+        )
+
+    [117] => Array
+        (
+            [line] => 88
+            [file] => F:\projects\ssp\modules\user\models\Profile.php
+            [message] => Method beforeSave has no parent to inherit from in app\modules\user\models\Profile.
+        )
+
+    [118] => Array
+        (
+            [line] => 34
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => No short description for element '$email'
+        )
+
+    [119] => Array
+        (
+            [line] => 37
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => No short description for element '$password'
+        )
+
+    [120] => Array
+        (
+            [line] => 40
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => No short description for element '$user'
+        )
+
+    [121] => Array
+        (
+            [line] => 43
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => No short description for element '$mailer'
+        )
+
+    [122] => Array
+        (
+            [line] => 46
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => No short description for element '$finder'
+        )
+
+    [123] => Array
+        (
+            [line] => 61
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\user\models\RecoveryForm.
+        )
+
+    [124] => Array
+        (
+            [line] => 70
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => Method scenarios has no parent to inherit from in app\modules\user\models\RecoveryForm.
+        )
+
+    [125] => Array
+        (
+            [line] => 80
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => Method rules has no parent to inherit from in app\modules\user\models\RecoveryForm.
+        )
+
+    [126] => Array
+        (
+            [line] => 156
+            [file] => F:\projects\ssp\modules\user\models\RecoveryForm.php
+            [message] => Method formName has no parent to inherit from in app\modules\user\models\RecoveryForm.
+        )
+
+    [127] => Array
+        (
+            [line] => 41
+            [file] => F:\projects\ssp\modules\user\models\RegistrationForm.php
+            [message] => No docblock for element '$captcha'
+        )
+
+    [128] => Array
+        (
+            [line] => 41
+            [file] => F:\projects\ssp\modules\user\models\RegistrationForm.php
+            [message] => No short description for element '$captcha'
+        )
+
+    [129] => Array
+        (
+            [line] => 46
+            [file] => F:\projects\ssp\modules\user\models\RegistrationForm.php
+            [message] => Method rules has no parent to inherit from in app\modules\user\models\RegistrationForm.
+        )
+
+    [130] => Array
+        (
+            [line] => 92
+            [file] => F:\projects\ssp\modules\user\models\RegistrationForm.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\user\models\RegistrationForm.
+        )
+
+    [131] => Array
+        (
+            [line] => 104
+            [file] => F:\projects\ssp\modules\user\models\RegistrationForm.php
+            [message] => Method formName has no parent to inherit from in app\modules\user\models\RegistrationForm.
+        )
+
+    [132] => Array
+        (
+            [line] => 32
+            [file] => F:\projects\ssp\modules\user\models\ResendForm.php
+            [message] => No short description for element '$email'
+        )
+
+    [133] => Array
+        (
+            [line] => 38
+            [file] => F:\projects\ssp\modules\user\models\ResendForm.php
+            [message] => No short description for element '$mailer'
+        )
+
+    [134] => Array
+        (
+            [line] => 41
+            [file] => F:\projects\ssp\modules\user\models\ResendForm.php
+            [message] => No short description for element '$finder'
+        )
+
+    [135] => Array
+        (
+            [line] => 68
+            [file] => F:\projects\ssp\modules\user\models\ResendForm.php
+            [message] => Method rules has no parent to inherit from in dektrium\user\models\ResendForm.
+        )
+
+    [136] => Array
+        (
+            [line] => 86
+            [file] => F:\projects\ssp\modules\user\models\ResendForm.php
+            [message] => Method attributeLabels has no parent to inherit from in dektrium\user\models\ResendForm.
+        )
+
+    [137] => Array
+        (
+            [line] => 94
+            [file] => F:\projects\ssp\modules\user\models\ResendForm.php
+            [message] => Method formName has no parent to inherit from in dektrium\user\models\ResendForm.
+        )
+
+    [138] => Array
+        (
+            [line] => 33
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => No short description for element '$email'
+        )
+
+    [139] => Array
+        (
+            [line] => 36
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => No short description for element '$username'
+        )
+
+    [140] => Array
+        (
+            [line] => 39
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => No short description for element '$new_password'
+        )
+
+    [141] => Array
+        (
+            [line] => 42
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => No short description for element '$current_password'
+        )
+
+    [142] => Array
+        (
+            [line] => 45
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => No short description for element '$mailer'
+        )
+
+    [143] => Array
+        (
+            [line] => 61
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => Method __construct has no parent to inherit from in dektrium\user\models\SettingsForm.
+        )
+
+    [144] => Array
+        (
+            [line] => 72
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => Method rules has no parent to inherit from in dektrium\user\models\SettingsForm.
+        )
+
+    [145] => Array
+        (
+            [line] => 96
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => Method attributeLabels has no parent to inherit from in dektrium\user\models\SettingsForm.
+        )
+
+    [146] => Array
+        (
+            [line] => 107
+            [file] => F:\projects\ssp\modules\user\models\SettingsForm.php
+            [message] => Method formName has no parent to inherit from in dektrium\user\models\SettingsForm.
+        )
+
+    [147] => Array
+        (
+            [line] => 93
+            [file] => F:\projects\ssp\modules\user\models\Token.php
+            [message] => Method beforeSave has no parent to inherit from in app\modules\user\models\Token.
+        )
+
+    [148] => Array
+        (
+            [line] => 105
+            [file] => F:\projects\ssp\modules\user\models\Token.php
+            [message] => Method tableName has no parent to inherit from in app\modules\user\models\Token.
+        )
+
+    [149] => Array
+        (
+            [line] => 111
+            [file] => F:\projects\ssp\modules\user\models\Token.php
+            [message] => Method primaryKey has no parent to inherit from in app\modules\user\models\Token.
+        )
+
+    [150] => Array
+        (
+            [line] => 77
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => No docblock for element '$rootUser'
+        )
+
+    [151] => Array
+        (
+            [line] => 77
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => No short description for element '$rootUser'
+        )
+
+    [152] => Array
+        (
+            [line] => 510
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => No docblock for element 'createRootUser'
+        )
+
+    [153] => Array
+        (
+            [line] => 530
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => No docblock for element 'isRoot'
+        )
+
+    [154] => Array
+        (
+            [line] => 171
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method getId has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [155] => Array
+        (
+            [line] => 177
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method getEmail has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [156] => Array
+        (
+            [line] => 184
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method getAuthKey has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [157] => Array
+        (
+            [line] => 190
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [158] => Array
+        (
+            [line] => 204
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method behaviors has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [159] => Array
+        (
+            [line] => 212
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method scenarios has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [160] => Array
+        (
+            [line] => 225
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method rules has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [161] => Array
+        (
+            [line] => 245
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method validateAuthKey has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [162] => Array
+        (
+            [line] => 453
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method beforeSave has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [163] => Array
+        (
+            [line] => 470
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method afterSave has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [164] => Array
+        (
+            [line] => 482
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method tableName has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [165] => Array
+        (
+            [line] => 494
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method findIdentity has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [166] => Array
+        (
+            [line] => 524
+            [file] => F:\projects\ssp\modules\user\models\User.php
+            [message] => Method findIdentityByAccessToken has no parent to inherit from in app\modules\user\models\User.
+        )
+
+    [167] => Array
+        (
+            [line] => 25
+            [file] => F:\projects\ssp\modules\user\models\UserSearch.php
+            [message] => No short description for element '$username'
+        )
+
+    [168] => Array
+        (
+            [line] => 28
+            [file] => F:\projects\ssp\modules\user\models\UserSearch.php
+            [message] => No short description for element '$email'
+        )
+
+    [169] => Array
+        (
+            [line] => 31
+            [file] => F:\projects\ssp\modules\user\models\UserSearch.php
+            [message] => No short description for element '$created_at'
+        )
+
+    [170] => Array
+        (
+            [line] => 34
+            [file] => F:\projects\ssp\modules\user\models\UserSearch.php
+            [message] => No short description for element '$registration_ip'
+        )
+
+    [171] => Array
+        (
+            [line] => 37
+            [file] => F:\projects\ssp\modules\user\models\UserSearch.php
+            [message] => No short description for element '$finder'
+        )
+
+    [172] => Array
+        (
+            [line] => 50
+            [file] => F:\projects\ssp\modules\user\models\UserSearch.php
+            [message] => Method rules has no parent to inherit from in app\modules\user\models\UserSearch.
+        )
+
+    [173] => Array
+        (
+            [line] => 59
+            [file] => F:\projects\ssp\modules\user\models\UserSearch.php
+            [message] => Method attributeLabels has no parent to inherit from in app\modules\user\models\UserSearch.
+        )
+
+)

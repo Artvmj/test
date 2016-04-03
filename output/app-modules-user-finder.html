@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/6dc05fb1/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/ad479576/solarized_light.css" rel="stylesheet">
+<link href="./assets/3f77a773/style.css" rel="stylesheet">
+<script src="./assets/7caffe2a/jquery.js"></script>
+<script src="./assets/6dc05fb1/js/bootstrap.js"></script>
+<script src="./assets/63e170b1/jssearch.js"></script>    <title>Finder, app\modules\user\Finder - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w1146" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w1146-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w1146-collapse" class="collapse navbar-collapse"><ul id="w1147" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-1120" data-toggle="collapse" data-parent="#navigation">app\components <b class="caret"></b></a><div id="navigation-1120" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-components-reports.html">Reports</a></div>
+<a class="list-group-item" href="#navigation-1121" data-toggle="collapse" data-parent="#navigation">app\modules\miloschuman\highcharts <b class="caret"></b></a><div id="navigation-1121" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-miloschuman-highcharts-highcharts.html">Highcharts</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highchartsasset.html">HighchartsAsset</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highmaps.html">Highmaps</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highstock.html">Highstock</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-seriesdatahelper.html">SeriesDataHelper</a></div>
+<a class="list-group-item" href="#navigation-1122" data-toggle="collapse" data-parent="#navigation">app\modules\reports <b class="caret"></b></a><div id="navigation-1122" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-reports-category.html">Category</a>
+<a class="list-group-item" href="./app-modules-reports-editable.html">Editable</a>
+<a class="list-group-item" href="./app-modules-reports-last.html">Last</a>
+<a class="list-group-item" href="./app-modules-reports-table.html">Table</a>
+<a class="list-group-item" href="./app-modules-reports-type.html">Type</a></div>
+<a class="list-group-item" href="#navigation-1123" data-toggle="collapse" data-parent="#navigation">app\modules\transaction <b class="caret"></b></a><div id="navigation-1123" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-transaction.html">Transaction</a></div>
+<a class="list-group-item" href="#navigation-1124" data-toggle="collapse" data-parent="#navigation">app\modules\transaction\controllers <b class="caret"></b></a><div id="navigation-1124" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-controllers-defaultcontroller.html">DefaultController</a>
+<a class="list-group-item" href="./app-modules-transaction-controllers-transactioncontroller.html">TransactionController</a></div>
+<a class="list-group-item" href="#navigation-1125" data-toggle="collapse" data-parent="#navigation">app\modules\transaction\models <b class="caret"></b></a><div id="navigation-1125" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-models-ssptransaction.html">SspTransaction</a></div>
+<a class="list-group-item" href="#navigation-1126" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category <b class="caret"></b></a><div id="navigation-1126" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-transactioncategory.html">TransactionCategory</a></div>
+<a class="list-group-item" href="#navigation-1127" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\api <b class="caret"></b></a><div id="navigation-1127" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-api-category.html">Category</a></div>
+<a class="list-group-item" href="#navigation-1128" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\controllers <b class="caret"></b></a><div id="navigation-1128" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-controllers-defaultcontroller.html">DefaultController</a>
+<a class="list-group-item" href="./app-modules-transaction_category-controllers-ssptransactioncategorycontroller.html">SspTransactionCategoryController</a></div>
+<a class="list-group-item" href="#navigation-1129" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\models <b class="caret"></b></a><div id="navigation-1129" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-models-ssptransactioncategory.html">SspTransactionCategory</a>
+<a class="list-group-item" href="./app-modules-transaction_category-models-ssptransactioncategorysearch.html">SspTransactionCategorySearch</a></div>
+<a class="list-group-item" href="#navigation-1130" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type <b class="caret"></b></a><div id="navigation-1130" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-transactiontype.html">TransactionType</a></div>
+<a class="list-group-item" href="#navigation-1131" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\api <b class="caret"></b></a><div id="navigation-1131" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-api-type.html">Type</a></div>
+<a class="list-group-item" href="#navigation-1132" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\controllers <b class="caret"></b></a><div id="navigation-1132" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-controllers-defaultcontroller.html">DefaultController</a>
+<a class="list-group-item" href="./app-modules-transaction_type-controllers-ssptransactiontypecontroller.html">SspTransactionTypeController</a></div>
+<a class="list-group-item" href="#navigation-1133" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\models <b class="caret"></b></a><div id="navigation-1133" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-models-ssptransactiontype.html">SspTransactionType</a>
+<a class="list-group-item" href="./app-modules-transaction_type-models-ssptransactiontypesearch.html">SspTransactionTypeSearch</a></div>
+<a class="list-group-item active" href="#navigation-1134" data-toggle="collapse" data-parent="#navigation">app\modules\user <b class="caret"></b></a><div id="navigation-1134" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./app-modules-user-finder.html">Finder</a>
+<a class="list-group-item" href="./app-modules-user-mailer.html">Mailer</a>
+<a class="list-group-item" href="./app-modules-user-module.html">Module</a>
+<a class="list-group-item" href="./app-modules-user-usermodule.html">UserModule</a></div>
+<a class="list-group-item" href="#navigation-1135" data-toggle="collapse" data-parent="#navigation">app\modules\user\api <b class="caret"></b></a><div id="navigation-1135" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-api-text.html">Text</a></div>
+<a class="list-group-item" href="#navigation-1136" data-toggle="collapse" data-parent="#navigation">app\modules\user\controllers <b class="caret"></b></a><div id="navigation-1136" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-controllers-defaultcontroller.html">DefaultController</a>
+<a class="list-group-item" href="./app-modules-user-controllers-securitycontroller.html">SecurityController</a></div>
+<a class="list-group-item" href="#navigation-1137" data-toggle="collapse" data-parent="#navigation">app\modules\user\events <b class="caret"></b></a><div id="navigation-1137" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-events-formevent.html">FormEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-profileevent.html">ProfileEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-resetpasswordevent.html">ResetPasswordEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-userevent.html">UserEvent</a></div>
+<a class="list-group-item" href="#navigation-1138" data-toggle="collapse" data-parent="#navigation">app\modules\user\filters <b class="caret"></b></a><div id="navigation-1138" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-filters-accessrule.html">AccessRule</a>
+<a class="list-group-item" href="./app-modules-user-filters-backendfilter.html">BackendFilter</a>
+<a class="list-group-item" href="./app-modules-user-filters-frontendfilter.html">FrontendFilter</a></div>
+<a class="list-group-item" href="#navigation-1139" data-toggle="collapse" data-parent="#navigation">app\modules\user\helpers <b class="caret"></b></a><div id="navigation-1139" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-helpers-password.html">Password</a></div>
+<a class="list-group-item" href="#navigation-1140" data-toggle="collapse" data-parent="#navigation">app\modules\user\models <b class="caret"></b></a><div id="navigation-1140" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-models-account.html">Account</a>
+<a class="list-group-item" href="./app-modules-user-models-loginform.html">LoginForm</a>
+<a class="list-group-item" href="./app-modules-user-models-profile.html">Profile</a>
+<a class="list-group-item" href="./app-modules-user-models-recoveryform.html">RecoveryForm</a>
+<a class="list-group-item" href="./app-modules-user-models-registrationform.html">RegistrationForm</a>
+<a class="list-group-item" href="./app-modules-user-models-token.html">Token</a>
+<a class="list-group-item" href="./app-modules-user-models-user.html">User</a>
+<a class="list-group-item" href="./app-modules-user-models-usersearch.html">UserSearch</a></div>
+<a class="list-group-item" href="#navigation-1141" data-toggle="collapse" data-parent="#navigation">app\modules\user\models\query <b class="caret"></b></a><div id="navigation-1141" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-models-query-accountquery.html">AccountQuery</a></div>
+<a class="list-group-item" href="#navigation-1142" data-toggle="collapse" data-parent="#navigation">app\modules\user\traits <b class="caret"></b></a><div id="navigation-1142" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-traits-ajaxvalidationtrait.html">AjaxValidationTrait</a>
+<a class="list-group-item" href="./app-modules-user-traits-eventtrait.html">EventTrait</a>
+<a class="list-group-item" href="./app-modules-user-traits-moduletrait.html">ModuleTrait</a></div>
+<a class="list-group-item" href="#navigation-1143" data-toggle="collapse" data-parent="#navigation">dektrium\user <b class="caret"></b></a><div id="navigation-1143" class="submenu panel-collapse collapse"><a class="list-group-item" href="./dektrium-user-bootstrap.html">Bootstrap</a></div>
+<a class="list-group-item" href="#navigation-1144" data-toggle="collapse" data-parent="#navigation">dektrium\user\events <b class="caret"></b></a><div id="navigation-1144" class="submenu panel-collapse collapse"><a class="list-group-item" href="./dektrium-user-events-authevent.html">AuthEvent</a>
+<a class="list-group-item" href="./dektrium-user-events-connectevent.html">ConnectEvent</a></div>
+<a class="list-group-item" href="#navigation-1145" data-toggle="collapse" data-parent="#navigation">dektrium\user\models <b class="caret"></b></a><div id="navigation-1145" class="submenu panel-collapse collapse"><a class="list-group-item" href="./dektrium-user-models-resendform.html">ResendForm</a>
+<a class="list-group-item" href="./dektrium-user-models-settingsform.html">SettingsForm</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class app\modules\user\Finder</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="app-modules-user-finder.html">app\modules\user\Finder</a> &raquo;
+yii\base\Object</td></tr>
+                                        </table>
+
+<div class="class-description">
+    <p><strong>Finder provides some useful methods for finding active record models.</strong></p>
+    
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Protected Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="$accountQuery">
+        <td><a href="app-modules-user-finder.html#$accountQuery-detail">$accountQuery</a></td>
+        <td><a href="app-modules-user-models-query-accountquery.html">app\modules\user\models\query\AccountQuery</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="$profileQuery">
+        <td><a href="app-modules-user-finder.html#$profileQuery-detail">$profileQuery</a></td>
+        <td>\yii\db\ActiveQuery</td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="$tokenQuery">
+        <td><a href="app-modules-user-finder.html#$tokenQuery-detail">$tokenQuery</a></td>
+        <td>\yii\db\ActiveQuery</td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="$userQuery">
+        <td><a href="app-modules-user-finder.html#$userQuery-detail">$userQuery</a></td>
+        <td>\yii\db\ActiveQuery</td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="findAccount()">
+        <td><a href="app-modules-user-finder.html#findAccount()-detail">findAccount()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findAccountById()">
+        <td><a href="app-modules-user-finder.html#findAccountById()-detail">findAccountById()</a></td>
+        <td>Finds an account by id.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findProfile()">
+        <td><a href="app-modules-user-finder.html#findProfile()-detail">findProfile()</a></td>
+        <td>Finds a profile.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findProfileById()">
+        <td><a href="app-modules-user-finder.html#findProfileById()-detail">findProfileById()</a></td>
+        <td>Finds a profile by user id.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findToken()">
+        <td><a href="app-modules-user-finder.html#findToken()-detail">findToken()</a></td>
+        <td>Finds a token by user id and code.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findTokenByParams()">
+        <td><a href="app-modules-user-finder.html#findTokenByParams()-detail">findTokenByParams()</a></td>
+        <td>Finds a token by params.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findUser()">
+        <td><a href="app-modules-user-finder.html#findUser()-detail">findUser()</a></td>
+        <td>Finds a user by the given condition.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findUserByEmail()">
+        <td><a href="app-modules-user-finder.html#findUserByEmail()-detail">findUserByEmail()</a></td>
+        <td>Finds a user by the given email.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findUserById()">
+        <td><a href="app-modules-user-finder.html#findUserById()-detail">findUserById()</a></td>
+        <td>Finds a user by the given id.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findUserByUsername()">
+        <td><a href="app-modules-user-finder.html#findUserByUsername()-detail">findUserByUsername()</a></td>
+        <td>Finds a user by the given username.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="findUserByUsernameOrEmail()">
+        <td><a href="app-modules-user-finder.html#findUserByUsernameOrEmail()-detail">findUserByUsernameOrEmail()</a></td>
+        <td>Finds a user by the given username or email.</td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="getAccountQuery()">
+        <td><a href="app-modules-user-finder.html#getAccountQuery()-detail">getAccountQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="getProfileQuery()">
+        <td><a href="app-modules-user-finder.html#getProfileQuery()-detail">getProfileQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="getTokenQuery()">
+        <td><a href="app-modules-user-finder.html#getTokenQuery()-detail">getTokenQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="getUserQuery()">
+        <td><a href="app-modules-user-finder.html#getUserQuery()-detail">getUserQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="setAccountQuery()">
+        <td><a href="app-modules-user-finder.html#setAccountQuery()-detail">setAccountQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="setProfileQuery()">
+        <td><a href="app-modules-user-finder.html#setProfileQuery()-detail">setProfileQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="setTokenQuery()">
+        <td><a href="app-modules-user-finder.html#setTokenQuery()-detail">setTokenQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+            <tr id="setUserQuery()">
+        <td><a href="app-modules-user-finder.html#setUserQuery()-detail">setUserQuery()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-finder.html">app\modules\user\Finder</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+<h2>Property Details</h2>
+
+<div class="property-doc">
+
+    <div class="detail-header h3" id="$accountQuery-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#$accountQuery-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $accountQuery        <span class="detail-header-tag small">
+            protected                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">protected</span> <span class="signature-type"><a href="app-modules-user-models-query-accountquery.html">app\modules\user\models\query\AccountQuery</a></span> <a href="app-modules-user-finder.html#$accountQuery-detail">$accountQuery</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+
+
+    <div class="detail-header h3" id="$profileQuery-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#$profileQuery-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $profileQuery        <span class="detail-header-tag small">
+            protected                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">protected</span> <span class="signature-type">\yii\db\ActiveQuery</span> <a href="app-modules-user-finder.html#$profileQuery-detail">$profileQuery</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+
+
+    <div class="detail-header h3" id="$tokenQuery-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#$tokenQuery-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $tokenQuery        <span class="detail-header-tag small">
+            protected                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">protected</span> <span class="signature-type">\yii\db\ActiveQuery</span> <a href="app-modules-user-finder.html#$tokenQuery-detail">$tokenQuery</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+
+
+    <div class="detail-header h3" id="$userQuery-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#$userQuery-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $userQuery        <span class="detail-header-tag small">
+            protected                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">protected</span> <span class="signature-type">\yii\db\ActiveQuery</span> <a href="app-modules-user-finder.html#$userQuery-detail">$userQuery</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">null</span></div>
+
+</div>
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="findAccount()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findAccount()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findAccount()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="app-modules-user-models-query-accountquery.html">app\modules\user\models\query\AccountQuery</a></span> <strong><a href="app-modules-user-finder.html#findAccount()-detail">findAccount</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findAccountById()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findAccountById()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findAccountById()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds an account by id.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="app-modules-user-models-account.html">app\modules\user\models\Account</a>|<a href="http://www.php.net/language.types.null">null</a></span> <strong><a href="app-modules-user-finder.html#findAccountById()-detail">findAccountById</a></strong> ( <span style="color: #0000BB">$id</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
+                  <td class="param-type-col">int</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findProfile()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findProfile()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findProfile()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a profile.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveQuery</span> <strong><a href="app-modules-user-finder.html#findProfile()-detail">findProfile</a></strong> ( <span style="color: #0000BB">$condition</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$condition</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findProfileById()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findProfileById()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findProfileById()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a profile by user id.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="http://www.php.net/language.types.null">null</a>|<a href="app-modules-user-models-profile.html">app\modules\user\models\Profile</a></span> <strong><a href="app-modules-user-finder.html#findProfileById()-detail">findProfileById</a></strong> ( <span style="color: #0000BB">$id</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
+                  <td class="param-type-col">int</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findToken()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findToken()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findToken()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a token by user id and code.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveQuery</span> <strong><a href="app-modules-user-finder.html#findToken()-detail">findToken</a></strong> ( <span style="color: #0000BB">$condition</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$condition</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findTokenByParams()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findTokenByParams()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findTokenByParams()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a token by params.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="app-modules-user-models-token.html">app\modules\user\models\Token</a></span> <strong><a href="app-modules-user-finder.html#findTokenByParams()-detail">findTokenByParams</a></strong> ( <span style="color: #0000BB">$userId</span>, <span style="color: #0000BB">$code</span>, <span style="color: #0000BB">$type</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$userId</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$code</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                            <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$type</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.integer">integer</a></td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findUser()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findUser()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findUser()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a user by the given condition.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveQuery</span> <strong><a href="app-modules-user-finder.html#findUser()-detail">findUser</a></strong> ( <span style="color: #0000BB">$condition</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$condition</span></td>
+                  <td class="param-type-col">mixed</td>
+                  <td class="param-desc-col"><p>Condition to be used on search.</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findUserByEmail()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findUserByEmail()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findUserByEmail()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a user by the given email.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="app-modules-user-models-user.html">app\modules\user\models\User</a></span> <strong><a href="app-modules-user-finder.html#findUserByEmail()-detail">findUserByEmail</a></strong> ( <span style="color: #0000BB">$email</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$email</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>Email to be used on search.</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findUserById()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findUserById()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findUserById()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a user by the given id.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="app-modules-user-models-user.html">app\modules\user\models\User</a></span> <strong><a href="app-modules-user-finder.html#findUserById()-detail">findUserById</a></strong> ( <span style="color: #0000BB">$id</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$id</span></td>
+                  <td class="param-type-col">int</td>
+                  <td class="param-desc-col"><p>User id to be used on search.</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findUserByUsername()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findUserByUsername()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findUserByUsername()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a user by the given username.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="app-modules-user-models-user.html">app\modules\user\models\User</a></span> <strong><a href="app-modules-user-finder.html#findUserByUsername()-detail">findUserByUsername</a></strong> ( <span style="color: #0000BB">$username</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$username</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>Username to be used on search.</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="findUserByUsernameOrEmail()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#findUserByUsernameOrEmail()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        findUserByUsernameOrEmail()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Finds a user by the given username or email.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type"><a href="app-modules-user-models-user.html">app\modules\user\models\User</a></span> <strong><a href="app-modules-user-finder.html#findUserByUsernameOrEmail()-detail">findUserByUsernameOrEmail</a></strong> ( <span style="color: #0000BB">$usernameOrEmail</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$usernameOrEmail</span></td>
+                  <td class="param-type-col"><a href="http://www.php.net/language.types.string">string</a></td>
+                  <td class="param-desc-col"><p>Username or email to be used on search.</p>
+</td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getAccountQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#getAccountQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getAccountQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveQuery</span> <strong><a href="app-modules-user-finder.html#getAccountQuery()-detail">getAccountQuery</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getProfileQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#getProfileQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getProfileQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveQuery</span> <strong><a href="app-modules-user-finder.html#getProfileQuery()-detail">getProfileQuery</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getTokenQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#getTokenQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getTokenQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveQuery</span> <strong><a href="app-modules-user-finder.html#getTokenQuery()-detail">getTokenQuery</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="getUserQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#getUserQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getUserQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\db\ActiveQuery</span> <strong><a href="app-modules-user-finder.html#getUserQuery()-detail">getUserQuery</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="setAccountQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#setAccountQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        setAccountQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="app-modules-user-finder.html#setAccountQuery()-detail">setAccountQuery</a></strong> ( <span class="signature-type">\yii\db\ActiveQuery</span> <span style="color: #0000BB">$accountQuery</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$accountQuery</span></td>
+                  <td class="param-type-col">\yii\db\ActiveQuery</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="setProfileQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#setProfileQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        setProfileQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="app-modules-user-finder.html#setProfileQuery()-detail">setProfileQuery</a></strong> ( <span class="signature-type">\yii\db\ActiveQuery</span> <span style="color: #0000BB">$profileQuery</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$profileQuery</span></td>
+                  <td class="param-type-col">\yii\db\ActiveQuery</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="setTokenQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#setTokenQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        setTokenQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="app-modules-user-finder.html#setTokenQuery()-detail">setTokenQuery</a></strong> ( <span class="signature-type">\yii\db\ActiveQuery</span> <span style="color: #0000BB">$tokenQuery</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$tokenQuery</span></td>
+                  <td class="param-type-col">\yii\db\ActiveQuery</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="setUserQuery()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-finder.html#setUserQuery()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        setUserQuery()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="app-modules-user-finder.html#setUserQuery()-detail">setUserQuery</a></strong> ( <span class="signature-type">\yii\db\ActiveQuery</span> <span style="color: #0000BB">$userQuery</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$userQuery</span></td>
+                  <td class="param-type-col">\yii\db\ActiveQuery</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Sun, 03 Apr 2016 04:01:51 +0200</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>
