@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/6dc05fb1/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/ad479576/solarized_light.css" rel="stylesheet">
+<link href="./assets/3f77a773/style.css" rel="stylesheet">
+<script src="./assets/7caffe2a/jquery.js"></script>
+<script src="./assets/6dc05fb1/js/bootstrap.js"></script>
+<script src="./assets/63e170b1/jssearch.js"></script>    <title>Highcharts, app\modules\miloschuman\highcharts\Highcharts - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w76" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w76-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w76-collapse" class="collapse navbar-collapse"><ul id="w77" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-52" data-toggle="collapse" data-parent="#navigation">app\assets <b class="caret"></b></a><div id="navigation-52" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-assets-appasset.html">AppAsset</a></div>
+<a class="list-group-item" href="#navigation-53" data-toggle="collapse" data-parent="#navigation">app\controllers <b class="caret"></b></a><div id="navigation-53" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-controllers-sitecontroller.html">SiteController</a></div>
+<a class="list-group-item active" href="#navigation-54" data-toggle="collapse" data-parent="#navigation">app\modules\miloschuman\highcharts <b class="caret"></b></a><div id="navigation-54" class="submenu panel-collapse collapse in"><a class="list-group-item active" href="./app-modules-miloschuman-highcharts-highcharts.html">Highcharts</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highchartsasset.html">HighchartsAsset</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highmaps.html">Highmaps</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highstock.html">Highstock</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-seriesdatahelper.html">SeriesDataHelper</a></div>
+<a class="list-group-item" href="#navigation-55" data-toggle="collapse" data-parent="#navigation">app\modules\reports <b class="caret"></b></a><div id="navigation-55" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-reports-category.html">Category</a>
+<a class="list-group-item" href="./app-modules-reports-editable.html">Editable</a>
+<a class="list-group-item" href="./app-modules-reports-last.html">Last</a>
+<a class="list-group-item" href="./app-modules-reports-table.html">Table</a>
+<a class="list-group-item" href="./app-modules-reports-type.html">Type</a></div>
+<a class="list-group-item" href="#navigation-56" data-toggle="collapse" data-parent="#navigation">app\modules\transaction <b class="caret"></b></a><div id="navigation-56" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-transaction.html">Transaction</a></div>
+<a class="list-group-item" href="#navigation-57" data-toggle="collapse" data-parent="#navigation">app\modules\transaction\controllers <b class="caret"></b></a><div id="navigation-57" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-controllers-defaultcontroller.html">DefaultController</a></div>
+<a class="list-group-item" href="#navigation-58" data-toggle="collapse" data-parent="#navigation">app\modules\transaction\models <b class="caret"></b></a><div id="navigation-58" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-models-ssptransaction.html">SspTransaction</a></div>
+<a class="list-group-item" href="#navigation-59" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category <b class="caret"></b></a><div id="navigation-59" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-transactioncategory.html">TransactionCategory</a></div>
+<a class="list-group-item" href="#navigation-60" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\api <b class="caret"></b></a><div id="navigation-60" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-api-category.html">Category</a></div>
+<a class="list-group-item" href="#navigation-61" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\controllers <b class="caret"></b></a><div id="navigation-61" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-controllers-defaultcontroller.html">DefaultController</a></div>
+<a class="list-group-item" href="#navigation-62" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\models <b class="caret"></b></a><div id="navigation-62" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-models-ssptransactioncategory.html">SspTransactionCategory</a>
+<a class="list-group-item" href="./app-modules-transaction_category-models-ssptransactioncategorysearch.html">SspTransactionCategorySearch</a></div>
+<a class="list-group-item" href="#navigation-63" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type <b class="caret"></b></a><div id="navigation-63" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-transactiontype.html">TransactionType</a></div>
+<a class="list-group-item" href="#navigation-64" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\api <b class="caret"></b></a><div id="navigation-64" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-api-type.html">Type</a></div>
+<a class="list-group-item" href="#navigation-65" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\controllers <b class="caret"></b></a><div id="navigation-65" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-controllers-defaultcontroller.html">DefaultController</a></div>
+<a class="list-group-item" href="#navigation-66" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\models <b class="caret"></b></a><div id="navigation-66" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-models-ssptransactiontype.html">SspTransactionType</a>
+<a class="list-group-item" href="./app-modules-transaction_type-models-ssptransactiontypesearch.html">SspTransactionTypeSearch</a></div>
+<a class="list-group-item" href="#navigation-67" data-toggle="collapse" data-parent="#navigation">app\modules\user <b class="caret"></b></a><div id="navigation-67" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-finder.html">Finder</a>
+<a class="list-group-item" href="./app-modules-user-mailer.html">Mailer</a>
+<a class="list-group-item" href="./app-modules-user-module.html">Module</a>
+<a class="list-group-item" href="./app-modules-user-usermodule.html">UserModule</a></div>
+<a class="list-group-item" href="#navigation-68" data-toggle="collapse" data-parent="#navigation">app\modules\user\controllers <b class="caret"></b></a><div id="navigation-68" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-controllers-defaultcontroller.html">DefaultController</a>
+<a class="list-group-item" href="./app-modules-user-controllers-securitycontroller.html">SecurityController</a></div>
+<a class="list-group-item" href="#navigation-69" data-toggle="collapse" data-parent="#navigation">app\modules\user\events <b class="caret"></b></a><div id="navigation-69" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-events-authevent.html">AuthEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-connectevent.html">ConnectEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-formevent.html">FormEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-profileevent.html">ProfileEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-resetpasswordevent.html">ResetPasswordEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-userevent.html">UserEvent</a></div>
+<a class="list-group-item" href="#navigation-70" data-toggle="collapse" data-parent="#navigation">app\modules\user\filters <b class="caret"></b></a><div id="navigation-70" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-filters-accessrule.html">AccessRule</a>
+<a class="list-group-item" href="./app-modules-user-filters-backendfilter.html">BackendFilter</a>
+<a class="list-group-item" href="./app-modules-user-filters-frontendfilter.html">FrontendFilter</a></div>
+<a class="list-group-item" href="#navigation-71" data-toggle="collapse" data-parent="#navigation">app\modules\user\helpers <b class="caret"></b></a><div id="navigation-71" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-helpers-password.html">Password</a></div>
+<a class="list-group-item" href="#navigation-72" data-toggle="collapse" data-parent="#navigation">app\modules\user\models <b class="caret"></b></a><div id="navigation-72" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-models-account.html">Account</a>
+<a class="list-group-item" href="./app-modules-user-models-loginform.html">LoginForm</a>
+<a class="list-group-item" href="./app-modules-user-models-profile.html">Profile</a>
+<a class="list-group-item" href="./app-modules-user-models-recoveryform.html">RecoveryForm</a>
+<a class="list-group-item" href="./app-modules-user-models-registrationform.html">RegistrationForm</a>
+<a class="list-group-item" href="./app-modules-user-models-resendform.html">ResendForm</a>
+<a class="list-group-item" href="./app-modules-user-models-settingsform.html">SettingsForm</a>
+<a class="list-group-item" href="./app-modules-user-models-token.html">Token</a>
+<a class="list-group-item" href="./app-modules-user-models-user.html">User</a>
+<a class="list-group-item" href="./app-modules-user-models-usersearch.html">UserSearch</a></div>
+<a class="list-group-item" href="#navigation-73" data-toggle="collapse" data-parent="#navigation">app\modules\user\models\query <b class="caret"></b></a><div id="navigation-73" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-models-query-accountquery.html">AccountQuery</a></div>
+<a class="list-group-item" href="#navigation-74" data-toggle="collapse" data-parent="#navigation">app\modules\user\traits <b class="caret"></b></a><div id="navigation-74" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-traits-ajaxvalidationtrait.html">AjaxValidationTrait</a>
+<a class="list-group-item" href="./app-modules-user-traits-eventtrait.html">EventTrait</a>
+<a class="list-group-item" href="./app-modules-user-traits-moduletrait.html">ModuleTrait</a></div>
+<a class="list-group-item" href="#navigation-75" data-toggle="collapse" data-parent="#navigation">app\modules\user\user <b class="caret"></b></a><div id="navigation-75" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-user-bootstrap.html">Bootstrap</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class app\modules\miloschuman\highcharts\Highcharts</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+            | <a href="#properties">Properties</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a> &raquo;
+yii\base\Widget</td></tr>
+                            <tr><th>Subclasses</th><td><a href="app-modules-miloschuman-highcharts-highmaps.html">app\modules\miloschuman\highcharts\Highmaps</a>, <a href="app-modules-miloschuman-highcharts-highstock.html">app\modules\miloschuman\highcharts\Highstock</a></td></tr>
+                        </table>
+
+<div class="class-description">
+    <p><strong>Highcharts encapsulates the {@link <a href="http://www.highcharts.com/">http://www.highcharts.com/</a> Highcharts}
+charting library's Chart object.</strong></p>
+    <p>To use this widget, you can insert the following code in a view:
+<code>`</code>php
+echo \miloschuman\highcharts\Highcharts::widget([</p>
+<pre><code class="hljs php"><span class="hljs-string">'options'</span> =&gt; [
+    <span class="hljs-string">'title'</span> =&gt; [<span class="hljs-string">'text'</span> =&gt; <span class="hljs-string">'Fruit Consumption'</span>],
+    <span class="hljs-string">'xAxis'</span> =&gt; [
+        <span class="hljs-string">'categories'</span> =&gt; [<span class="hljs-string">'Apples'</span>, <span class="hljs-string">'Bananas'</span>, <span class="hljs-string">'Oranges'</span>]
+    ],
+    <span class="hljs-string">'yAxis'</span> =&gt; [
+        <span class="hljs-string">'title'</span> =&gt; [<span class="hljs-string">'text'</span> =&gt; <span class="hljs-string">'Fruit eaten'</span>]
+    ],
+    <span class="hljs-string">'series'</span> =&gt; [
+        [<span class="hljs-string">'name'</span> =&gt; <span class="hljs-string">'Jane'</span>, <span class="hljs-string">'data'</span> =&gt; [<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">4</span>]],
+        [<span class="hljs-string">'name'</span> =&gt; <span class="hljs-string">'John'</span>, <span class="hljs-string">'data'</span> =&gt; [<span class="hljs-number">5</span>, <span class="hljs-number">7</span>, <span class="hljs-number">3</span>]]
+    ]
+]
+</code></pre>
+<p>]);
+<code>`</code></p>
+<p>By configuring the {@link $options} property, you may specify the options
+that need to be passed to the Highcharts JavaScript object. Please refer to
+the demo gallery and documentation on the {@link <a href="https://www.highcharts.com/">https://www.highcharts.com/</a>
+Highcharts website} for possible options.</p>
+<p>Note: You do not need to specify the <code>chart-&gt;renderTo</code> option as
+is shown in many of the examples on the Highcharts website. This value is
+automatically populated with the id of the widget's container element. If you
+wish to use a different container, feel free to specify a custom value.</p>
+
+    </div>
+
+<a id="properties"></a>
+
+<div class="summary doc-property">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+            <tr id="$callback">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#$callback-detail">$callback</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+                <tr id="$htmlOptions">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#$htmlOptions-detail">$htmlOptions</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+            <tr id="$options">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#$options-detail">$options</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+            <tr id="$scripts">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#$scripts-detail">$scripts</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+            <tr id="$setupOptions">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#$setupOptions-detail">$setupOptions</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+    </table>
+</div>
+
+<div class="summary doc-property">
+<h2>Protected Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-property" />
+    <col class="col-type" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="$baseScript">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#$baseScript-detail">$baseScript</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+                <tr id="$constr">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#$constr-detail">$constr</a></td>
+        <td></td>
+        <td></td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+                    </table>
+</div>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+            <tr id="run()">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#run()-detail">run()</a></td>
+        <td>Renders the widget.</td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+    </table>
+</div>
+
+<div class="summary doc-method">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="registerAssets()">
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html#registerAssets()-detail">registerAssets()</a></td>
+        <td>Registers required assets and the executing code block with the view</td>
+        <td><a href="app-modules-miloschuman-highcharts-highcharts.html">app\modules\miloschuman\highcharts\Highcharts</a></td>
+    </tr>
+        </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+<h2>Property Details</h2>
+
+<div class="property-doc">
+
+    <div class="detail-header h3" id="$baseScript-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#$baseScript-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $baseScript        <span class="detail-header-tag small">
+            protected                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">protected</span> <span class="signature-type"></span> <a href="app-modules-miloschuman-highcharts-highcharts.html#$baseScript-detail">$baseScript</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'highcharts'</span></div>
+
+
+    <div class="detail-header h3" id="$callback-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#$callback-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $callback        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span> <a href="app-modules-miloschuman-highcharts-highcharts.html#$callback-detail">$callback</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">false</span></div>
+
+
+    <div class="detail-header h3" id="$constr-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#$constr-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $constr        <span class="detail-header-tag small">
+            protected                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">protected</span> <span class="signature-type"></span> <a href="app-modules-miloschuman-highcharts-highcharts.html#$constr-detail">$constr</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'Chart'</span></div>
+
+
+    <div class="detail-header h3" id="$htmlOptions-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#$htmlOptions-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $htmlOptions        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span> <a href="app-modules-miloschuman-highcharts-highcharts.html#$htmlOptions-detail">$htmlOptions</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+
+
+    <div class="detail-header h3" id="$options-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#$options-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $options        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span> <a href="app-modules-miloschuman-highcharts-highcharts.html#$options-detail">$options</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+
+
+    <div class="detail-header h3" id="$scripts-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#$scripts-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $scripts        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span> <a href="app-modules-miloschuman-highcharts-highcharts.html#$scripts-detail">$scripts</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+
+
+    <div class="detail-header h3" id="$setupOptions-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#$setupOptions-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        $setupOptions        <span class="detail-header-tag small">
+            public                                                property
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        
+            </div>
+
+    <div class="signature"><span class="signature-defs">public</span> <span class="signature-type"></span> <a href="app-modules-miloschuman-highcharts-highcharts.html#$setupOptions-detail">$setupOptions</a> <span style="color: #0000BB"></span><span style="color: #007700">=&nbsp;[]</span></div>
+
+</div>
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="registerAssets()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#registerAssets()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        registerAssets()
+        <span class="detail-header-tag small">
+            protected                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Registers required assets and the executing code block with the view</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">protected</span> <span class="signature-type">void</span> <strong><a href="app-modules-miloschuman-highcharts-highcharts.html#registerAssets()-detail">registerAssets</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="run()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-miloschuman-highcharts-highcharts.html#run()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        run()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong>Renders the widget.</strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="app-modules-miloschuman-highcharts-highcharts.html#run()-detail">run</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Mon, 04 Apr 2016 05:39:09 +0200</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

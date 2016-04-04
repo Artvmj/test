@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user;
+namespace app\modules\user\user;
 
 use Yii;
 use yii\authclient\Collection;

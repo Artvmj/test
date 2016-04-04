@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\models;
+namespace app\modules\user\models;
 
 use dektrium\user\Finder;
 use dektrium\user\Mailer;

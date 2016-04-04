@@ -73,22 +73,28 @@ class SspTransaction extends \yii\db\ActiveRecord {
     }
 
     /**
-     * @return \yii\db\ActiveQuery
-     */
+     * Получить автора транзакции
+      * 
+      * @return \yii\db\ActiveQuery
+     */ 
     public function getUser() {
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 
     /**
-     * @return \yii\db\ActiveQuery
-     */
+     * Получить категорию транзакции
+      * 
+      * @return \yii\db\ActiveQuery
+     */ 
     public function getCategory() {
         return $this->hasOne(SspTransactionCategory::className(), ['id' => 'category_id']);
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
+     /**
+     * Получить тип транзакции
+      * 
+      * @return \yii\db\ActiveQuery
+     */ 
     public function getType() {
         return $this->hasOne(SspTransactionType::className(), ['id' => 'type_id'])->via("category");
     }

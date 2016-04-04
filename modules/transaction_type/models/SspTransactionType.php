@@ -49,9 +49,11 @@ class SspTransactionType extends \yii\db\ActiveRecord
         ];
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
+   /**
+     * Получить категории данного типа транзакции
+      * 
+      * @return \yii\db\ActiveQuery
+     */ 
     public function getSspTransactionCategories()
     {
         return $this->hasMany(SspTransactionCategory::className(), ['type_id' => 'id']);

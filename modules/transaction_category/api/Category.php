@@ -1,13 +1,19 @@
 <?php
 
-namespace  app\modules\transaction_category\api;
-use        app\modules\transaction_category\models\SspTransactionCategory;
+namespace app\modules\transaction_category\api;
 
-class Category   {
- 
-    public static function GetList() { 
-		$result = SspTransactionCategory::find()->with("type")->asArray()->all(); 
+use app\modules\transaction_category\models\SspTransactionCategory;
+
+class Category {
+
+    /**
+     *  Возвращает массив всех категорий
+     * 
+     * @return Array
+     */
+    public static function GetList() {
+        $result = SspTransactionCategory::find()->with("type")->asArray()->all();
         return $result;
     }
- 
+
 }

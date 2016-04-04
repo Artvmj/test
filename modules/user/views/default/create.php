@@ -36,7 +36,7 @@ $this->title = Yii::t('user', 'Create a user account');
                         'class' => 'nav-pills nav-stacked',
                     ],
                     'items' => [
-                        ['label' => Yii::t('user', 'Account details'), 'url' => ['/user/admin/create']],
+                      //  ['label' => Yii::t('user', 'Account details'), 'url' => ['/user/admin/create']],
                         ['label' => Yii::t('user', 'Profile details'), 'options' => [
                             'class' => 'disabled',
                             'onclick' => 'return false;',

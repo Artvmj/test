@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="en" />
+        <link href="./assets/6dc05fb1/css/bootstrap.css" rel="stylesheet">
+<link href="./assets/ad479576/solarized_light.css" rel="stylesheet">
+<link href="./assets/3f77a773/style.css" rel="stylesheet">
+<script src="./assets/7caffe2a/jquery.js"></script>
+<script src="./assets/6dc05fb1/js/bootstrap.js"></script>
+<script src="./assets/63e170b1/jssearch.js"></script>    <title>FormEvent, app\modules\user\events\FormEvent - Yii Framework 2.0 API Documentation</title>
+</head>
+<body>
+
+<div class="wrap">
+    <nav id="w804" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w804-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="./index.html">Yii Framework 2.0 API Documentation</a></div><div id="w804-collapse" class="collapse navbar-collapse"><ul id="w805" class="navbar-nav nav"><li><a href="./index.html">Class reference</a></li></ul><div class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input id="searchbox" type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</div></nav>
+    <div id="search-resultbox" style="display: none;" class="modal-content">
+        <ul id="search-results">
+        </ul>
+    </div>
+
+    
+<div class="row">
+    <div class="col-md-3">
+                <div id="navigation" class="list-group"><a class="list-group-item" href="#navigation-780" data-toggle="collapse" data-parent="#navigation">app\assets <b class="caret"></b></a><div id="navigation-780" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-assets-appasset.html">AppAsset</a></div>
+<a class="list-group-item" href="#navigation-781" data-toggle="collapse" data-parent="#navigation">app\controllers <b class="caret"></b></a><div id="navigation-781" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-controllers-sitecontroller.html">SiteController</a></div>
+<a class="list-group-item" href="#navigation-782" data-toggle="collapse" data-parent="#navigation">app\modules\miloschuman\highcharts <b class="caret"></b></a><div id="navigation-782" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-miloschuman-highcharts-highcharts.html">Highcharts</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highchartsasset.html">HighchartsAsset</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highmaps.html">Highmaps</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-highstock.html">Highstock</a>
+<a class="list-group-item" href="./app-modules-miloschuman-highcharts-seriesdatahelper.html">SeriesDataHelper</a></div>
+<a class="list-group-item" href="#navigation-783" data-toggle="collapse" data-parent="#navigation">app\modules\reports <b class="caret"></b></a><div id="navigation-783" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-reports-category.html">Category</a>
+<a class="list-group-item" href="./app-modules-reports-editable.html">Editable</a>
+<a class="list-group-item" href="./app-modules-reports-last.html">Last</a>
+<a class="list-group-item" href="./app-modules-reports-table.html">Table</a>
+<a class="list-group-item" href="./app-modules-reports-type.html">Type</a></div>
+<a class="list-group-item" href="#navigation-784" data-toggle="collapse" data-parent="#navigation">app\modules\transaction <b class="caret"></b></a><div id="navigation-784" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-transaction.html">Transaction</a></div>
+<a class="list-group-item" href="#navigation-785" data-toggle="collapse" data-parent="#navigation">app\modules\transaction\controllers <b class="caret"></b></a><div id="navigation-785" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-controllers-defaultcontroller.html">DefaultController</a></div>
+<a class="list-group-item" href="#navigation-786" data-toggle="collapse" data-parent="#navigation">app\modules\transaction\models <b class="caret"></b></a><div id="navigation-786" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction-models-ssptransaction.html">SspTransaction</a></div>
+<a class="list-group-item" href="#navigation-787" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category <b class="caret"></b></a><div id="navigation-787" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-transactioncategory.html">TransactionCategory</a></div>
+<a class="list-group-item" href="#navigation-788" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\api <b class="caret"></b></a><div id="navigation-788" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-api-category.html">Category</a></div>
+<a class="list-group-item" href="#navigation-789" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\controllers <b class="caret"></b></a><div id="navigation-789" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-controllers-defaultcontroller.html">DefaultController</a></div>
+<a class="list-group-item" href="#navigation-790" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_category\models <b class="caret"></b></a><div id="navigation-790" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_category-models-ssptransactioncategory.html">SspTransactionCategory</a>
+<a class="list-group-item" href="./app-modules-transaction_category-models-ssptransactioncategorysearch.html">SspTransactionCategorySearch</a></div>
+<a class="list-group-item" href="#navigation-791" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type <b class="caret"></b></a><div id="navigation-791" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-transactiontype.html">TransactionType</a></div>
+<a class="list-group-item" href="#navigation-792" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\api <b class="caret"></b></a><div id="navigation-792" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-api-type.html">Type</a></div>
+<a class="list-group-item" href="#navigation-793" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\controllers <b class="caret"></b></a><div id="navigation-793" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-controllers-defaultcontroller.html">DefaultController</a></div>
+<a class="list-group-item" href="#navigation-794" data-toggle="collapse" data-parent="#navigation">app\modules\transaction_type\models <b class="caret"></b></a><div id="navigation-794" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-transaction_type-models-ssptransactiontype.html">SspTransactionType</a>
+<a class="list-group-item" href="./app-modules-transaction_type-models-ssptransactiontypesearch.html">SspTransactionTypeSearch</a></div>
+<a class="list-group-item" href="#navigation-795" data-toggle="collapse" data-parent="#navigation">app\modules\user <b class="caret"></b></a><div id="navigation-795" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-finder.html">Finder</a>
+<a class="list-group-item" href="./app-modules-user-mailer.html">Mailer</a>
+<a class="list-group-item" href="./app-modules-user-module.html">Module</a>
+<a class="list-group-item" href="./app-modules-user-usermodule.html">UserModule</a></div>
+<a class="list-group-item" href="#navigation-796" data-toggle="collapse" data-parent="#navigation">app\modules\user\controllers <b class="caret"></b></a><div id="navigation-796" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-controllers-defaultcontroller.html">DefaultController</a>
+<a class="list-group-item" href="./app-modules-user-controllers-securitycontroller.html">SecurityController</a></div>
+<a class="list-group-item active" href="#navigation-797" data-toggle="collapse" data-parent="#navigation">app\modules\user\events <b class="caret"></b></a><div id="navigation-797" class="submenu panel-collapse collapse in"><a class="list-group-item" href="./app-modules-user-events-authevent.html">AuthEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-connectevent.html">ConnectEvent</a>
+<a class="list-group-item active" href="./app-modules-user-events-formevent.html">FormEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-profileevent.html">ProfileEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-resetpasswordevent.html">ResetPasswordEvent</a>
+<a class="list-group-item" href="./app-modules-user-events-userevent.html">UserEvent</a></div>
+<a class="list-group-item" href="#navigation-798" data-toggle="collapse" data-parent="#navigation">app\modules\user\filters <b class="caret"></b></a><div id="navigation-798" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-filters-accessrule.html">AccessRule</a>
+<a class="list-group-item" href="./app-modules-user-filters-backendfilter.html">BackendFilter</a>
+<a class="list-group-item" href="./app-modules-user-filters-frontendfilter.html">FrontendFilter</a></div>
+<a class="list-group-item" href="#navigation-799" data-toggle="collapse" data-parent="#navigation">app\modules\user\helpers <b class="caret"></b></a><div id="navigation-799" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-helpers-password.html">Password</a></div>
+<a class="list-group-item" href="#navigation-800" data-toggle="collapse" data-parent="#navigation">app\modules\user\models <b class="caret"></b></a><div id="navigation-800" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-models-account.html">Account</a>
+<a class="list-group-item" href="./app-modules-user-models-loginform.html">LoginForm</a>
+<a class="list-group-item" href="./app-modules-user-models-profile.html">Profile</a>
+<a class="list-group-item" href="./app-modules-user-models-recoveryform.html">RecoveryForm</a>
+<a class="list-group-item" href="./app-modules-user-models-registrationform.html">RegistrationForm</a>
+<a class="list-group-item" href="./app-modules-user-models-resendform.html">ResendForm</a>
+<a class="list-group-item" href="./app-modules-user-models-settingsform.html">SettingsForm</a>
+<a class="list-group-item" href="./app-modules-user-models-token.html">Token</a>
+<a class="list-group-item" href="./app-modules-user-models-user.html">User</a>
+<a class="list-group-item" href="./app-modules-user-models-usersearch.html">UserSearch</a></div>
+<a class="list-group-item" href="#navigation-801" data-toggle="collapse" data-parent="#navigation">app\modules\user\models\query <b class="caret"></b></a><div id="navigation-801" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-models-query-accountquery.html">AccountQuery</a></div>
+<a class="list-group-item" href="#navigation-802" data-toggle="collapse" data-parent="#navigation">app\modules\user\traits <b class="caret"></b></a><div id="navigation-802" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-traits-ajaxvalidationtrait.html">AjaxValidationTrait</a>
+<a class="list-group-item" href="./app-modules-user-traits-eventtrait.html">EventTrait</a>
+<a class="list-group-item" href="./app-modules-user-traits-moduletrait.html">ModuleTrait</a></div>
+<a class="list-group-item" href="#navigation-803" data-toggle="collapse" data-parent="#navigation">app\modules\user\user <b class="caret"></b></a><div id="navigation-803" class="submenu panel-collapse collapse"><a class="list-group-item" href="./app-modules-user-user-bootstrap.html">Bootstrap</a></div></div>    </div>
+    <div class="col-md-9 api-content" role="main">
+        <h1>Class app\modules\user\events\FormEvent</h1>
+<div class="top-nav">
+    <a href="index.html">All Classes</a>
+                | <a href="#methods">Methods</a>
+            </div>
+
+<table class="summaryTable docClass table table-bordered">
+    <colgroup>
+        <col class="col-name" />
+        <col class="col-value" />
+    </colgroup>
+            <tr><th>Inheritance</th><td><a href="app-modules-user-events-formevent.html">app\modules\user\events\FormEvent</a> &raquo;
+yii\base\Event</td></tr>
+                                        </table>
+
+<div class="class-description">
+    <p><strong></strong></p>
+    
+    </div>
+
+<a id="properties"></a>
+
+<a id="methods"></a>
+
+<div class="summary doc-method">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summary-table table table-striped table-bordered table-hover">
+<colgroup>
+    <col class="col-method" />
+    <col class="col-description" />
+    <col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+        <tr id="getForm()">
+        <td><a href="app-modules-user-events-formevent.html#getForm()-detail">getForm()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-events-formevent.html">app\modules\user\events\FormEvent</a></td>
+    </tr>
+            <tr id="setForm()">
+        <td><a href="app-modules-user-events-formevent.html#setForm()-detail">setForm()</a></td>
+        <td></td>
+        <td><a href="app-modules-user-events-formevent.html">app\modules\user\events\FormEvent</a></td>
+    </tr>
+    </table>
+</div>
+
+<a id="events"></a>
+
+<a id="constants"></a>
+
+<h2>Method Details</h2>
+
+<div class="method-doc">
+
+    <div class="detail-header h3" id="getForm()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-events-formevent.html#getForm()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        getForm()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">\yii\base\Model</span> <strong><a href="app-modules-user-events-formevent.html#getForm()-detail">getForm</a></strong> ( )</td></tr>
+            </table>
+
+<!--	-->
+
+    <div class="detail-header h3" id="setForm()-detail">
+        <a href="#" class="tool-link" title="go to top"><span class="glyphicon glyphicon-arrow-up"></span></a>
+        <a class="tool-link hash" href="app-modules-user-events-formevent.html#setForm()-detail" title="direct link to this method"><span class="glyphicon icon-hash"></span></a>
+        
+        setForm()
+        <span class="detail-header-tag small">
+            public                                    method
+                    </span>
+    </div>
+
+    <div class="doc-description">
+        <p><strong></strong></p>
+
+        
+            </div>
+
+    <table class="detail-table table table-striped table-bordered table-hover">
+        <tr><td colspan="3" class="signature"><span class="signature-defs">public</span> <span class="signature-type">void</span> <strong><a href="app-modules-user-events-formevent.html#setForm()-detail">setForm</a></strong> ( <span class="signature-type">\yii\base\Model</span> <span style="color: #0000BB">$form</span> )</td></tr>
+                                    <tr>
+                  <td class="param-name-col"><span style="color: #0000BB">$form</span></td>
+                  <td class="param-type-col">\yii\base\Model</td>
+                  <td class="param-desc-col"></td>
+                </tr>
+                                                </table>
+
+<!--	-->
+</div>
+        </div>
+</div>
+
+<script type="text/javascript">
+    /*<![CDATA[*/
+    $("a.toggle").on('click', function () {
+        var $this = $(this);
+        if ($this.hasClass('properties-hidden')) {
+            $this.text($this.text().replace(/Show/,'Hide'));
+            $this.parents(".summary").find(".inherited").show();
+            $this.removeClass('properties-hidden');
+        } else {
+            $this.text($this.text().replace(/Hide/,'Show'));
+            $this.parents(".summary").find(".inherited").hide();
+            $this.addClass('properties-hidden');
+        }
+
+        return false;
+    });
+    /*
+     $(".sourceCode a.show").toggle(function () {
+     $(this).text($(this).text().replace(/show/,'hide'));
+     $(this).parents(".sourceCode").find("div.code").show();
+     },function () {
+     $(this).text($(this).text().replace(/hide/,'show'));
+     $(this).parents(".sourceCode").find("div.code").hide();
+     });
+     $("a.sourceLink").click(function () {
+     $(this).attr('target','_blank');
+     });
+     */
+    /*]]>*/
+</script>
+
+
+</div>
+
+<footer class="footer">
+        <p class="pull-right"><small>Page generated on Mon, 04 Apr 2016 05:39:10 +0200</small></p>
+    Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a></footer>
+
+<script type="text/javascript">jQuery(document).ready(function () {
+    var shiftWindow = function () { scrollBy(0, -50) };
+    if (location.hash) setTimeout(shiftWindow, 1);
+    window.addEventListener("hashchange", shiftWindow);
+var element = document.createElement("script");
+element.src = "./jssearch.index.js";
+document.body.appendChild(element);
+
+var searchBox = $('#searchbox');
+
+// search when typing in search field
+searchBox.on("keyup", function(event) {
+    var query = $(this).val();
+
+    if (query == '' || event.which == 27) {
+        $('#search-resultbox').hide();
+        return;
+    } else if (event.which == 13) {
+        var selectedLink = $('#search-resultbox a.selected');
+        if (selectedLink.length != 0) {
+            document.location = selectedLink.attr('href');
+            return;
+        }
+    } else if (event.which == 38 || event.which == 40) {
+        $('#search-resultbox').show();
+
+        var selected = $('#search-resultbox a.selected');
+        if (selected.length == 0) {
+            $('#search-results').find('a').first().addClass('selected');
+        } else {
+            var next;
+            if (event.which == 40) {
+                next = selected.parent().next().find('a').first();
+            } else {
+                next = selected.parent().prev().find('a').first();
+            }
+            if (next.length != 0) {
+                var resultbox = $('#search-results');
+                var position = next.position();
+
+//              TODO scrolling is buggy and jumps around
+//                resultbox.scrollTop(Math.floor(position.top));
+//                console.log(position.top);
+
+                selected.removeClass('selected');
+                next.addClass('selected');
+            }
+        }
+
+        return;
+    }
+    $('#search-resultbox').show();
+    $('#search-results').html('<li><span class="no-results">No results</span></li>');
+
+    var result = jssearch.search(query);
+
+    if (result.length > 0) {
+        var i = 0;
+        var resHtml = '';
+
+        for (var key in result) {
+            if (i++ > 20) {
+                break;
+            }
+            resHtml = resHtml +
+            '<li><a href="' + result[key].file.u.substr(3) +'"><span class="title">' + result[key].file.t + '</span>' +
+            '<span class="description">' + result[key].file.d + '</span></a></li>';
+        }
+        $('#search-results').html(resHtml);
+    }
+});
+
+// hide the search results on ESC
+$(document).on("keyup", function(event) { if (event.which == 27) { $('#search-resultbox').hide(); } });
+// hide search results on click to document
+$(document).bind('click', function (e) { $('#search-resultbox').hide(); });
+// except the following:
+searchBox.bind('click', function(e) { e.stopPropagation(); });
+$('#search-resultbox').bind('click', function(e) { e.stopPropagation(); });
+
+});</script></body>
+</html>

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace dektrium\user\events;
+namespace app\modules\user\events;
 
 use dektrium\user\models\Account;
 use yii\authclient\ClientInterface;
