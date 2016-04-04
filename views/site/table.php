@@ -96,8 +96,8 @@ $this->title = 'Отчет по типам транзакций';
             </tr> 
             
              <tr>   
-                      <td  colspan="<?=count($list["data"])-1?>"  style="background: #dcdcdc;">Итоговый доход:</td> 
-                      <td style="background: #dcdcdc;"><?=$list["total_sum"]?>  <i class="fa fa-rouble"></i></td>  
+                      <td  colspan="<?=count($list["data"])?>"  style="background: #dcdcdc;">Итоговый доход:
+                      <?=$list["total_sum"]?>  <i class="fa fa-rouble"></i></td>  
             </tr>  
             
     </table>
